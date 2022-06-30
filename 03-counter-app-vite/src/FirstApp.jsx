@@ -1,15 +1,6 @@
-// const newMessage={
-//     nombre: 'Jesus',
-//     edad: 25
-// };
-
 import PropTypes from 'prop-types';
 
 export const FirstApp = ({ title, subtitle }) => {
-
-    // if ( !title ){
-    //     throw new Error('El title no existe');
-    // }
 
     return (
       <>
