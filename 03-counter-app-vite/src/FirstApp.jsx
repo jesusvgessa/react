@@ -13,10 +13,10 @@ export const FirstApp = ({ title, subtitle }) => {
 
 FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
-    subtitle: PropTypes.number.isRequired
+    subtitle: PropTypes.number
 }
 
 FirstApp.defaultProps = {
     title: 'No hay titulo',
-    subtitle: 'No hay subtitulo'
+    subtitle: 0
 }
