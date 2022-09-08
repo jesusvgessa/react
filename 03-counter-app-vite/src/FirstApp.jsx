@@ -4,9 +4,10 @@ export const FirstApp = ({ title, subtitle }) => {
 
     return (
       <>
-        <h1>{ title }</h1>
+        <div data-testid="test-title"> { title } </div>
         {/*<code>{ JSON.stringify(newMessage) }</code>*/}
-        <p>{ subtitle + 1 }</p>
+        <p>{ subtitle }</p>
+        <p>{ name }</p>
       </>
     )
 }
